@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Relative"
+    android:background="@color/background">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/swiperefresh"
+        >
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/MyRcyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

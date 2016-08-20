@@ -1,0 +1,230 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        tools:context="com.example.foda_.pets_sales_project.Create_Ad">
+
+        <LinearLayout
+            android:layout_width="330dp"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_shape"
+            android:elevation="10dp"
+            android:orientation="vertical">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/PetName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:hint="Pet Name "
+                android:singleLine="true"
+                app:met_iconLeft="@drawable/name"
+                app:met_iconPadding="0dp"
+                app:met_underlineColor="#8D6E63" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/PetAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="20dp"
+                android:hint="Age in Monthes"
+                android:singleLine="true"
+                app:met_iconLeft="@drawable/ic_av_timer_black_24dp"
+                app:met_iconPadding="0dp"
+                app:met_underlineColor="#8D6E63" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/PetPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="20dp"
+                android:hint="Price in pounds"
+                android:singleLine="true"
+                app:met_iconLeft="@drawable/dollars"
+                app:met_iconPadding="3dp"
+                app:met_underlineColor="#8D6E63"
+                android:imeOptions="actionDone"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_shape"
+
+            android:elevation="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="8dp"
+                android:text="Pet Type :"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/Pets_Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/custom_spinner"></Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_shape"
+            android:elevation="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="8dp"
+                android:text="Gender : "
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/Gender_Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/custom_spinner"></Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_shape"
+            android:elevation="10dp"
+            android:orientation="vertical">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/PetDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:hint="Short description"
+                android:imeOptions="actionDone"
+                android:inputType="textMultiLine"
+                android:maxLines="2"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                app:met_helperText="Maximum 70 Character"
+                app:met_iconLeft="@drawable/ic_description_black_24dp"
+                app:met_iconPadding="0dp"
+                app:met_maxCharacters="70" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/custom_shape"
+            android:elevation="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:padding="7dp"
+                android:text="Pet Picture : "
+                android:textSize="19dp" />
+
+            <TextView
+                android:id="@+id/path"
+                android:layout_width="0dp"
+                android:ellipsize="end"
+                android:elevation="3dp"
+                android:layout_height="0dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/Select_Pic"
+                android:layout_toRightOf="@+id/textview2" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_toRightOf="@+id/textview2"
+                android:id="@+id/petimagebitmap"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:background="@android:color/transparent"
+                />
+
+            <ImageButton
+                android:id="@+id/Select_Pic"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/gallery"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scaleType="fitXY"
+                android:textAllCaps="false"
+                />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/Share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custum_button"
+            android:elevation="15dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:text="Share "
+            android:textAllCaps="false"
+            android:textSize="22dp"
+            />
+    </LinearLayout>
+
+
+
+</ScrollView>

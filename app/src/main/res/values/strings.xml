@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pets</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main_app">MainApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_my__adds">My_Adds</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+    <string name="i_have_account"><u>I Already have Account</u></string>
+    <string name="title_activity_main22">Main22Activity</string>
+    <string name="title_activity_pet_information">PetInformation</string>
+</resources>

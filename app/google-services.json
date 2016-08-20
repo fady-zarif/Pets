@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "195770789378",
+    "firebase_url": "https://pets-9c653.firebaseio.com",
+    "project_id": "pets-9c653",
+    "storage_bucket": "pets-9c653.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195770789378:android:2209a4b26430da31",
+        "android_client_info": {
+          "package_name": "com.example.foda_.pets_sales_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195770789378-s76ea5ulpn3be62cr3pq510g6pdmib6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhvWHUsAJCUGt9s4SAUNHM8su6YMkUJy0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

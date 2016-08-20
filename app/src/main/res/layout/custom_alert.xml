@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="24dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_border">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sign In"
+    android:textStyle="bold"
+    android:textSize="21dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="16dp"
+    />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/black"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="13dp"
+        app:met_textColorHint="#80CBC4"
+        app:met_underlineColor="#8D6E63"
+        app:met_iconPadding="0dp"
+        app:met_iconLeft="@drawable/ic_mail_black_24dp"
+        android:id="@+id/Alert_Email"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:imeOptions="actionGo"
+        app:met_iconPadding="0dp"
+        app:met_iconLeft="@drawable/ic_lock_black_24dp"
+        android:id="@+id/Alert_Password"
+        android:layout_marginLeft="6dp"
+        app:met_textColorHint="#80CBC4"
+        app:met_underlineColor="#8D6E63"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Log In"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custum_button"
+        android:layout_gravity="center"
+        android:id="@+id/Alert_SignIn"/>
+
+</LinearLayout>

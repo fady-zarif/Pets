@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/My_Profile" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Profile" />
+        <item android:id="@+id/My_Ads" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="My Advertisment" />
+        <item android:id="@+id/Log_Out" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Log Out" />
+    </group>
+
+</menu>
